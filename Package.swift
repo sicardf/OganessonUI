@@ -24,6 +24,6 @@ let package = Package(
         .target(
             name: "OganessonUI",
             dependencies: [],
-            path: "Sources"),
+            path: "Sources", resources: [.process("Colors")]),
     ]
 )
